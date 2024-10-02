@@ -1,0 +1,5 @@
+service : {
+  getCounter: () -> (nat) query;
+  greet: (text) -> (text);
+  increment: () -> (nat);
+}
